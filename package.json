@@ -1,0 +1,17 @@
+{
+  "name": "airline-booking-system-node",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "Aman Singh",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --watch src/index"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "http-status-codes": "^2.3.0"
+  }
+}
