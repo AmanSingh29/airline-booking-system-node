@@ -1,8 +1,7 @@
 const express = require("express");
 const router = express.Router();
+const authRouter = require("./auth");
 
-router.use("/info", (req, res) => {
-    return res.json({message: `This is rout: ${req.url}`})
-});
+router.use("/auth", authRouter);
 
 module.exports = router;

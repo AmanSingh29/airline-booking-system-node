@@ -1,7 +1,5 @@
-const dotenv = require("dotenv");
-dotenv.config();
-const { PORT } = process.env;
+const logger = require("./logger-config");
 
 module.exports = {
-  PORT,
+  logger,
 };
