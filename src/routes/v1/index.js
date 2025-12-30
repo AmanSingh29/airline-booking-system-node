@@ -1,7 +1,7 @@
 const express = require("express");
 const router = express.Router();
-const authRouter = require("./airplane-route");
+const airplaneRouter = require("./airplane-route");
 
-router.use("/airplane", authRouter);
+router.use("/airplane", airplaneRouter);
 
 module.exports = router;

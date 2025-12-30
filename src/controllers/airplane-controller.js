@@ -14,7 +14,7 @@ async function createAirplane(req, res) {
       message: "Airplane created successfully!",
     });
   } catch (error) {
-    resizeBy.status(StatusCodes.INTERNAL_SERVER_ERROR).json({
+    res.status(StatusCodes.INTERNAL_SERVER_ERROR).json({
       success: false,
       error,
       data: null,
